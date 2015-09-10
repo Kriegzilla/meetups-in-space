@@ -1,0 +1,95 @@
+
+body {
+  background-image: url('/images/stardust.png');
+  color: #FFFFFF;
+}
+
+a,
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.top-bar {
+  background-color: #3C3C3C;
+}
+
+.top-bar-section {
+  display: inline-block;
+  float: right;
+}
+
+.top-bar-section li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.logo {
+  display: inline-block;
+  margin: 1em 0;
+}
+
+.flash {
+  padding: 1em;
+  background-color: #3B9089;
+}
+
+input {
+  color: black;
+}
+#description_form {
+  /*height: 75px;
+  font-size:10pt;
+  color: black;*/
+}
+
+button {
+  color: black
+}
+
+#meetups {
+  list-style: square;
+  padding: 50px;
+}
+
+#frontpage {
+  list-style: square;
+  padding: 50px;
+}
+
+#join {
+  padding: 25px;
+}
+
+#location {
+  padding: 20px;
+  font-weight: bold;
+}
+
+#description {
+  padding: 20px;
+}
+
+.frontitem {
+  margin: 25px;
+}
+
+.return_links {
+  list-style: none;
+  text-decoration: underline;
+  padding: 25px;
+}
+
+#users_joined {
+  list-style: none;
+}
+
+.avatar {
+  width: 64px;
+  height:64px;
+}

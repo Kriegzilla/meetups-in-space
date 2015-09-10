@@ -1,0 +1,9 @@
+<h1><%= @title %></h1>
+<div id="meetups">
+<% meetups.each do |meetup| %>
+<li><a href="/meetups/<%=meetup.id%>"><%= meetup.title %></li>
+<% end %>
+</div>
+
+<br>
+<a href=/>Back Home</a>

@@ -1,0 +1,13 @@
+<h1><%= @title %></h1>
+Create a meetup here:
+<form action="/create" method="post">
+  <label for="title">Meetup Title:</label>
+  <input type="text" placeholder="Your cool meetup" id="title" name="title" required>
+  <br>
+  <label for="location">Location:</label>
+  <input type="location" placeholder="space" id="location_form" name="location" required>
+  <br>
+  <label for="description">Description:</label>
+  <input type="text" placeholder="Gonna talk about space in space!" id="description_form" name="description" required>
+  <input type="submit">
+</form>

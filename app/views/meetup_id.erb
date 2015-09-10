@@ -1,0 +1,21 @@
+<h1><%= @title %></h1>
+<h3><%= meetup.title%></h3>
+
+<div id="location"> Location: <%= meetup.location %> </div>
+<div id="description"> Description: <%= meetup.description %> </div>
+
+<div id="users_joined">
+  <h3> Attending Users: </h3>
+  <% users.each do |user| %>
+  <li><img src="<%= user.avatar_url %>" alt="<%= user.username %>'s avatar" class="avatar"</img> <%= user.username %> </li>
+  <% end %>
+</div>
+
+<form id="join" action="" method="post">
+    <button name="join" value="join">Join this meetup!</button>
+</form>
+
+<div class=return_links>
+<li><a href=/>Back Home</a></li>
+<li><a href=/meetups>All meetups</a></li>
+</div
